@@ -68,85 +68,6 @@ F 3 "" H 1900 4820 50  0001 C CNN
 	1    1900 4820
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 4650 1900 4650
-Wire Wire Line
-	1900 4550 1900 4820
-Wire Wire Line
-	1900 4550 2050 4550
-Connection ~ 1900 4650
-Wire Wire Line
-	5980 4550 5980 4730
-Wire Wire Line
-	3950 4550 5980 4550
-Wire Wire Line
-	5690 4450 5690 4730
-Wire Wire Line
-	3950 4450 5690 4450
-Wire Wire Line
-	5410 4350 5410 4730
-Wire Wire Line
-	3950 4350 5410 4350
-Wire Wire Line
-	5120 4250 5120 4730
-Wire Wire Line
-	3950 4250 5120 4250
-Wire Wire Line
-	4810 4150 4810 4730
-Wire Wire Line
-	3950 4150 4810 4150
-Wire Wire Line
-	4530 4050 4530 4730
-Wire Wire Line
-	3950 4050 4530 4050
-Wire Wire Line
-	6280 4650 6280 4730
-Wire Wire Line
-	3950 4650 6280 4650
-Wire Wire Line
-	4220 3950 3950 3950
-Wire Wire Line
-	4220 3950 4220 4730
-Wire Wire Line
-	6280 5210 6280 5030
-Wire Wire Line
-	4220 5030 4220 5210
-Wire Wire Line
-	5980 5210 5980 5030
-Wire Wire Line
-	5690 5210 5690 5030
-Wire Wire Line
-	5410 5210 5410 5030
-Wire Wire Line
-	5120 5210 5120 5030
-Wire Wire Line
-	4810 5210 4810 5030
-Wire Wire Line
-	4530 5210 4530 5030
-Wire Wire Line
-	4220 5510 4220 5690
-Wire Wire Line
-	4220 5690 6280 5690
-Wire Wire Line
-	6280 5690 6280 5510
-Wire Wire Line
-	4530 5510 4530 5690
-Connection ~ 4530 5690
-Wire Wire Line
-	4810 5690 4810 5510
-Connection ~ 4810 5690
-Wire Wire Line
-	5120 5690 5120 5510
-Connection ~ 5120 5690
-Wire Wire Line
-	5410 5690 5410 5510
-Connection ~ 5410 5690
-Wire Wire Line
-	5690 5690 5690 5510
-Connection ~ 5690 5690
-Wire Wire Line
-	5980 5690 5980 5510
-Connection ~ 5980 5690
 $Comp
 L GND #PWR?
 U 1 1 5B3A1F6F
@@ -158,9 +79,6 @@ F 3 "" H 5270 5810 50  0001 C CNN
 	1    5270 5810
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5270 5690 5270 5810
-Connection ~ 5270 5690
 $Comp
 L LED D?
 U 1 1 5B3A1F5A
@@ -337,78 +255,6 @@ F 3 "" H 5410 4880 50  0001 C CNN
 	1    5410 4880
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5980 2450 5980 2270
-Wire Wire Line
-	3950 2450 5980 2450
-Wire Wire Line
-	5690 2550 5690 2270
-Wire Wire Line
-	3950 2550 5690 2550
-Wire Wire Line
-	5410 2650 5410 2270
-Wire Wire Line
-	3950 2650 5410 2650
-Wire Wire Line
-	5120 2750 5120 2270
-Wire Wire Line
-	3950 2750 5120 2750
-Wire Wire Line
-	4810 2850 4810 2270
-Wire Wire Line
-	3950 2850 4810 2850
-Wire Wire Line
-	4530 2950 4530 2270
-Wire Wire Line
-	3950 2950 4530 2950
-Wire Wire Line
-	6280 2350 6280 2270
-Wire Wire Line
-	3950 2350 6280 2350
-Wire Wire Line
-	4220 3050 3950 3050
-Wire Wire Line
-	4220 3050 4220 2270
-Wire Wire Line
-	6280 1790 6280 1970
-Wire Wire Line
-	4220 1970 4220 1790
-Wire Wire Line
-	5980 1790 5980 1970
-Wire Wire Line
-	5690 1790 5690 1970
-Wire Wire Line
-	5410 1790 5410 1970
-Wire Wire Line
-	5120 1790 5120 1970
-Wire Wire Line
-	4810 1790 4810 1970
-Wire Wire Line
-	4530 1790 4530 1970
-Wire Wire Line
-	4220 1490 4220 1310
-Wire Wire Line
-	4220 1310 6280 1310
-Wire Wire Line
-	6280 1310 6280 1490
-Wire Wire Line
-	4530 1490 4530 1310
-Connection ~ 4530 1310
-Wire Wire Line
-	4810 1310 4810 1490
-Connection ~ 4810 1310
-Wire Wire Line
-	5120 1310 5120 1490
-Connection ~ 5120 1310
-Wire Wire Line
-	5410 1310 5410 1490
-Connection ~ 5410 1310
-Wire Wire Line
-	5690 1310 5690 1490
-Connection ~ 5690 1310
-Wire Wire Line
-	5980 1310 5980 1490
-Connection ~ 5980 1310
 $Comp
 L GND #PWR?
 U 1 1 5B3A793B
@@ -420,9 +266,6 @@ F 3 "" H 5270 1190 50  0001 C CNN
 	1    5270 1190
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	5270 1310 5270 1190
-Connection ~ 5270 1310
 $Comp
 L LED D?
 U 1 1 5B3A7943
@@ -599,4 +442,218 @@ F 3 "" H 5410 2120 50  0001 C CNN
 	1    5410 2120
 	-1   0    0    -1  
 $EndComp
+$Comp
+L AVR-ISP-6 CON?
+U 1 1 5B3ABA44
+P 2190 6210
+F 0 "CON?" H 2085 6450 50  0000 C CNN
+F 1 "AVR-ISP-6" H 1925 5980 50  0000 L BNN
+F 2 "AVR-ISP-6" V 1670 6250 50  0001 C CNN
+F 3 "" H 2165 6210 50  0001 C CNN
+	1    2190 6210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4650 1900 4650
+Wire Wire Line
+	1900 4550 1900 4820
+Wire Wire Line
+	1900 4550 2050 4550
+Connection ~ 1900 4650
+Wire Wire Line
+	5980 4550 5980 4730
+Wire Wire Line
+	3950 4550 5980 4550
+Wire Wire Line
+	5690 4450 5690 4730
+Wire Wire Line
+	3950 4450 5690 4450
+Wire Wire Line
+	5410 4350 5410 4730
+Wire Wire Line
+	3950 4350 5410 4350
+Wire Wire Line
+	5120 4250 5120 4730
+Wire Wire Line
+	3950 4250 5120 4250
+Wire Wire Line
+	4810 4150 4810 4730
+Wire Wire Line
+	3950 4150 4810 4150
+Wire Wire Line
+	4530 4050 4530 4730
+Wire Wire Line
+	3950 4050 4530 4050
+Wire Wire Line
+	6280 4650 6280 4730
+Wire Wire Line
+	3950 4650 6280 4650
+Wire Wire Line
+	4220 3950 3950 3950
+Wire Wire Line
+	4220 3950 4220 4730
+Wire Wire Line
+	6280 5210 6280 5030
+Wire Wire Line
+	4220 5030 4220 5210
+Wire Wire Line
+	5980 5210 5980 5030
+Wire Wire Line
+	5690 5210 5690 5030
+Wire Wire Line
+	5410 5210 5410 5030
+Wire Wire Line
+	5120 5210 5120 5030
+Wire Wire Line
+	4810 5210 4810 5030
+Wire Wire Line
+	4530 5210 4530 5030
+Wire Wire Line
+	4220 5510 4220 5690
+Wire Wire Line
+	4220 5690 6280 5690
+Wire Wire Line
+	6280 5690 6280 5510
+Wire Wire Line
+	4530 5510 4530 5690
+Connection ~ 4530 5690
+Wire Wire Line
+	4810 5690 4810 5510
+Connection ~ 4810 5690
+Wire Wire Line
+	5120 5690 5120 5510
+Connection ~ 5120 5690
+Wire Wire Line
+	5410 5690 5410 5510
+Connection ~ 5410 5690
+Wire Wire Line
+	5690 5690 5690 5510
+Connection ~ 5690 5690
+Wire Wire Line
+	5980 5690 5980 5510
+Connection ~ 5980 5690
+Wire Wire Line
+	5270 5690 5270 5810
+Connection ~ 5270 5690
+Wire Wire Line
+	5980 2450 5980 2270
+Wire Wire Line
+	3950 2450 5980 2450
+Wire Wire Line
+	5690 2550 5690 2270
+Wire Wire Line
+	3950 2550 5690 2550
+Wire Wire Line
+	5410 2650 5410 2270
+Wire Wire Line
+	3950 2650 5410 2650
+Wire Wire Line
+	5120 2750 5120 2270
+Wire Wire Line
+	3950 2750 5120 2750
+Wire Wire Line
+	4810 2850 4810 2270
+Wire Wire Line
+	3950 2850 4810 2850
+Wire Wire Line
+	4530 2950 4530 2270
+Wire Wire Line
+	3950 2950 4530 2950
+Wire Wire Line
+	6280 2350 6280 2270
+Wire Wire Line
+	3950 2350 6280 2350
+Wire Wire Line
+	4220 3050 3950 3050
+Wire Wire Line
+	4220 3050 4220 2270
+Wire Wire Line
+	6280 1790 6280 1970
+Wire Wire Line
+	4220 1970 4220 1790
+Wire Wire Line
+	5980 1790 5980 1970
+Wire Wire Line
+	5690 1790 5690 1970
+Wire Wire Line
+	5410 1790 5410 1970
+Wire Wire Line
+	5120 1790 5120 1970
+Wire Wire Line
+	4810 1790 4810 1970
+Wire Wire Line
+	4530 1790 4530 1970
+Wire Wire Line
+	4220 1490 4220 1310
+Wire Wire Line
+	4220 1310 6280 1310
+Wire Wire Line
+	6280 1310 6280 1490
+Wire Wire Line
+	4530 1490 4530 1310
+Connection ~ 4530 1310
+Wire Wire Line
+	4810 1310 4810 1490
+Connection ~ 4810 1310
+Wire Wire Line
+	5120 1310 5120 1490
+Connection ~ 5120 1310
+Wire Wire Line
+	5410 1310 5410 1490
+Connection ~ 5410 1310
+Wire Wire Line
+	5690 1310 5690 1490
+Connection ~ 5690 1310
+Wire Wire Line
+	5980 1310 5980 1490
+Connection ~ 5980 1310
+Wire Wire Line
+	5270 1310 5270 1190
+Connection ~ 5270 1310
+Wire Wire Line
+	2290 6310 2720 6310
+Wire Wire Line
+	2290 6210 2720 6210
+Wire Wire Line
+	2290 6110 2720 6110
+Wire Wire Line
+	1610 6310 2040 6310
+Wire Wire Line
+	1610 6210 2040 6210
+Wire Wire Line
+	1610 6110 2040 6110
+$Comp
+L GND #PWR?
+U 1 1 5B3ACCF1
+P 2720 6460
+F 0 "#PWR?" H 2720 6210 50  0001 C CNN
+F 1 "GND" H 2720 6310 50  0000 C CNN
+F 2 "" H 2720 6460 50  0001 C CNN
+F 3 "" H 2720 6460 50  0001 C CNN
+	1    2720 6460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2720 6310 2720 6460
+Text Label 2720 6210 0    60   ~ 0
+MOSI
+$Comp
+L +5V #PWR?
+U 1 1 5B3AD100
+P 2720 5990
+F 0 "#PWR?" H 2720 5840 50  0001 C CNN
+F 1 "+5V" H 2720 6130 50  0000 C CNN
+F 2 "" H 2720 5990 50  0001 C CNN
+F 3 "" H 2720 5990 50  0001 C CNN
+	1    2720 5990
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2720 6110 2720 5990
+Text Label 1610 6110 2    60   ~ 0
+MISO
+Text Label 1610 6210 2    60   ~ 0
+SCK
+Text Label 1610 6310 2    60   ~ 0
+RST
 $EndSCHEMATC
