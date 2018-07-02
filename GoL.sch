@@ -31,149 +31,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:dk_USB-DVI-HDMI-Connectors
-LIBS:dk_TVS-Mixed-Technology
-LIBS:dk_TVS-Diodes
-LIBS:dk_Trimmer-Potentiometers
-LIBS:dk_Transistors-JFETs
-LIBS:dk_Transistors-FETs-MOSFETs-Single
-LIBS:dk_Transistors-FETs-MOSFETs-RF
-LIBS:dk_Transistors-FETs-MOSFETs-Arrays
-LIBS:dk_Transistors-Bipolar-BJT-Single-Pre-Biased
-LIBS:dk_Transistors-Bipolar-BJT-Single
-LIBS:dk_Transistors-Bipolar-BJT-RF
-LIBS:dk_Transistors-Bipolar-BJT-Arrays
-LIBS:dk_Toggle-Switches
-LIBS:dk_Thyristors-TRIACs
-LIBS:dk_Thyristors-SCRs
-LIBS:dk_Thyristors-DIACs-SIDACs
-LIBS:dk_Thermal-Cutoffs-Thermal-Fuses
-LIBS:dk_Temperature-Sensors-Analog-and-Digital-Output
-LIBS:dk_Tactile-Switches
-LIBS:dk_Surge-Suppression-ICs
-LIBS:dk_Specialized-Sensors
-LIBS:dk_Specialized-ICs
-LIBS:dk_Solid-State-Relays
-LIBS:dk_Slide-Switches
-LIBS:dk_Signal-Relays-Up-to-2-Amps
-LIBS:dk_Sensors-Transducers_Accessories
-LIBS:dk_Rotary-Potentiometers-Rheostats
-LIBS:dk_RF-Transmitters
-LIBS:dk_RF-Transceiver-Modules
-LIBS:dk_RF-Transceiver-ICs
-LIBS:dk_RF-Switches
-LIBS:dk_RF-Receivers
-LIBS:dk_RFID-RF-Access-Monitoring-ICs
-LIBS:dk_RF-Evaluation-and-Development-Kits-Boards
-LIBS:dk_RF-Detectors
-LIBS:dk_RF-Demodulators
-LIBS:dk_RF-Antennas
-LIBS:dk_RF-Amplifiers
-LIBS:dk_Resistor-Networks-Arrays
-LIBS:dk_Reed-Relays
-LIBS:dk_Rectangular-Connectors-Headers-Male-Pins
-LIBS:dk_Pushbutton-Switches
-LIBS:dk_Programmable-Oscillators
-LIBS:dk_Pressure-Sensors-Transducers
-LIBS:dk_Power-Relays-Over-2-Amps
-LIBS:dk_PMIC-Voltage-Regulators-Special-Purpose
-LIBS:dk_PMIC-Voltage-Regulators-Linear
-LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Regulators
-LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Controllers
-LIBS:dk_PMIC-Voltage-Reference
-LIBS:dk_PMIC-V-F-and-F-V-Converters
-LIBS:dk_PMIC-Thermal-Management
-LIBS:dk_PMIC-Supervisors
-LIBS:dk_PMIC-RMS-to-DC-Converters
-LIBS:dk_PMIC-Power-Management-Specialized
-LIBS:dk_PMIC-Power-Distribution-Switches-Load-Drivers
-LIBS:dk_PMIC-OR-Controllers-Ideal-Diodes
-LIBS:dk_PMIC-Motor-Drivers-Controllers
-LIBS:dk_PMIC-LED-Drivers
-LIBS:dk_PMIC-Gate-Drivers
-LIBS:dk_PMIC-Full-Half-Bridge-Drivers
-LIBS:dk_PMIC-Current-Regulation-Management
-LIBS:dk_PMIC-Battery-Management
-LIBS:dk_PMIC-Battery-Chargers
-LIBS:dk_PMIC-AC-DC-Converters-Offline-Switchers
-LIBS:dk_Oscillators
-LIBS:dk_Optoisolators-Triac-SCR-Output
-LIBS:dk_Optoisolators-Transistor-Photovoltaic-Output
-LIBS:dk_Optoisolators-Logic-Output
-LIBS:dk_Optical-Sensors-Reflective-Analog-Output
-LIBS:dk_Optical-Sensors-Phototransistors
-LIBS:dk_Optical-Sensors-Photodiodes
-LIBS:dk_Optical-Sensors-Photo-Detectors-Remote-Receiver
-LIBS:dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors
-LIBS:dk_Navigation-Switches-Joystick
-LIBS:dk_Motion-Sensors-Tilt-Switches
-LIBS:dk_Motion-Sensors-IMUs-Inertial-Measurement-Units
-LIBS:dk_Motion-Sensors-Accelerometers
-LIBS:dk_Modular-Connectors-Jacks-With-Magnetics
-LIBS:dk_Modular-Connectors-Jacks
-LIBS:dk_Microphones
-LIBS:dk_Memory-Connectors-PC-Card-Sockets
-LIBS:dk_Memory
-LIBS:dk_Magnetic-Sensors-Switches-Solid-State
-LIBS:dk_Magnetic-Sensors-Linear-Compass-ICs
-LIBS:dk_Magnetic-Sensors-Compass-Magnetic-Field-Modules
-LIBS:dk_Logic-Translators-Level-Shifters
-LIBS:dk_Logic-Signal-Switches-Multiplexers-Decoders
-LIBS:dk_Logic-Shift-Registers
-LIBS:dk_Logic-Multivibrators
-LIBS:dk_Logic-Gates-and-Inverters
-LIBS:dk_Logic-Flip-Flops
-LIBS:dk_Logic-Buffers-Drivers-Receivers-Transceivers
-LIBS:dk_Linear-Comparators
-LIBS:dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps
-LIBS:dk_Linear-Amplifiers-Audio
-LIBS:dk_LEDs-Circuit-Board-Indicators-Arrays-Light-Bars-Bar-Graphs
-LIBS:dk_LED-Indication-Discrete
-LIBS:dk_Interface-Specialized
-LIBS:dk_Interface-Sensor-Capacitive-Touch
-LIBS:dk_Interface-Sensor-and-Detector-Interfaces
-LIBS:dk_Interface-Modules
-LIBS:dk_Interface-I-O-Expanders
-LIBS:dk_Interface-Drivers-Receivers-Transceivers
-LIBS:dk_Interface-Controllers
-LIBS:dk_Interface-Analog-Switches-Special-Purpose
-LIBS:dk_Interface-Analog-Switches-Multiplexers-Demultiplexers
-LIBS:dk_Inrush-Current-Limiters-ICL
-LIBS:dk_Infrared-UV-Visible-Emitters
-LIBS:dk_Image-Sensors-Camera
-LIBS:dk_Humidity-Moisture-Sensors
-LIBS:dk_Gas-Sensors
-LIBS:dk_Fuses
-LIBS:dk_Fixed-Inductors
-LIBS:dk_Ferrite-Beads-and-Chips
-LIBS:dk_Evaluation-Boards-Sensors
-LIBS:dk_Encoders
-LIBS:dk_Embedded-Microcontrollers
-LIBS:dk_D-Sub-Connectors
-LIBS:dk_Display-Modules-LED-Character-and-Numeric
-LIBS:dk_Display-Modules-LCD-OLED-Graphic
-LIBS:dk_Diodes-Zener-Single
-LIBS:dk_Diodes-Rectifiers-Single
-LIBS:dk_Diodes-Rectifiers-Arrays
-LIBS:dk_Diodes-Bridge-Rectifiers
-LIBS:dk_Digital-Isolators
-LIBS:dk_DC-DC-Converters
-LIBS:dk_Data-Acquisition-Touch-Screen-Controllers
-LIBS:dk_Data-Acquisition-Digital-to-Analog-Converters-DAC
-LIBS:dk_Data-Acquisition-Digital-Potentiometers
-LIBS:dk_Data-Acquisition-Analog-to-Digital-Converters-ADC
-LIBS:dk_Data-Acquisition-ADCs-DACs-Special-Purpose
-LIBS:dk_Current-Transducers
-LIBS:dk_Coaxial-Connectors-RF
-LIBS:dk_Clock-Timing-Real-Time-Clocks
-LIBS:dk_Clock-Timing-Programmable-Timers-and-Oscillators
-LIBS:dk_Clock-Timing-Clock-Generators-PLLs-Frequency-Synthesizers
-LIBS:dk_Battery-Holders-Clips-Contacts
-LIBS:dk_Barrel-Audio-Connectors
-LIBS:dk_Balun
-LIBS:dk_Automotive-Relays
-LIBS:dk_Alarms-Buzzers-and-Sirens
-LIBS:dk_Addressable-Specialty
 LIBS:GoL-cache
 EELAYER 25 0
 EELAYER END
@@ -201,10 +58,10 @@ F 3 "" H 5680 3310 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR13
+L GND #PWR01
 U 1 1 5B39B1C9
 P 4530 4630
-F 0 "#PWR13" H 4530 4380 50  0001 C CNN
+F 0 "#PWR01" H 4530 4380 50  0001 C CNN
 F 1 "GND" H 4530 4480 50  0000 C CNN
 F 2 "" H 4530 4630 50  0001 C CNN
 F 3 "" H 4530 4630 50  0001 C CNN
@@ -212,10 +69,10 @@ F 3 "" H 4530 4630 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR18
+L GND #PWR02
 U 1 1 5B3A1F6F
 P 7900 5620
-F 0 "#PWR18" H 7900 5370 50  0001 C CNN
+F 0 "#PWR02" H 7900 5370 50  0001 C CNN
 F 1 "GND" H 7900 5470 50  0000 C CNN
 F 2 "" H 7900 5620 50  0001 C CNN
 F 3 "" H 7900 5620 50  0001 C CNN
@@ -399,10 +256,10 @@ F 3 "" H 8040 4690 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR17
+L GND #PWR03
 U 1 1 5B3A793B
 P 7900 1000
-F 0 "#PWR17" H 7900 750 50  0001 C CNN
+F 0 "#PWR03" H 7900 750 50  0001 C CNN
 F 1 "GND" H 7900 850 50  0000 C CNN
 F 2 "" H 7900 1000 50  0001 C CNN
 F 3 "" H 7900 1000 50  0001 C CNN
@@ -630,10 +487,10 @@ F 3 "" H 2840 2310 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR11
+L +5V #PWR04
 U 1 1 5B3AFCF3
 P 3910 2020
-F 0 "#PWR11" H 3910 1870 50  0001 C CNN
+F 0 "#PWR04" H 3910 1870 50  0001 C CNN
 F 1 "+5V" H 3910 2160 50  0000 C CNN
 F 2 "" H 3910 2020 50  0001 C CNN
 F 3 "" H 3910 2020 50  0001 C CNN
@@ -641,21 +498,10 @@ F 3 "" H 3910 2020 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR12
-U 1 1 5B3B0ECA
-P 4270 2480
-F 0 "#PWR12" H 4270 2230 50  0001 C CNN
-F 1 "GND" H 4270 2330 50  0000 C CNN
-F 2 "" H 4270 2480 50  0001 C CNN
-F 3 "" H 4270 2480 50  0001 C CNN
-	1    4270 2480
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR4
+L GND #PWR05
 U 1 1 5B3B2636
 P 2840 2630
-F 0 "#PWR4" H 2840 2380 50  0001 C CNN
+F 0 "#PWR05" H 2840 2380 50  0001 C CNN
 F 1 "GND" H 2840 2480 50  0000 C CNN
 F 2 "" H 2840 2630 50  0001 C CNN
 F 3 "" H 2840 2630 50  0001 C CNN
@@ -673,13 +519,13 @@ RST
 $Comp
 L Conn_01x02 PWR1
 U 1 1 5B3B44AB
-P 2250 2260
-F 0 "PWR1" H 2250 2360 50  0000 C CNN
-F 1 "Conn_01x02" H 2250 2060 50  0000 C CNN
-F 2 "" H 2250 2260 50  0001 C CNN
-F 3 "" H 2250 2260 50  0001 C CNN
-	1    2250 2260
-	-1   0    0    1   
+P 2250 2160
+F 0 "PWR1" H 2250 2260 50  0000 C CNN
+F 1 "Conn_01x02" H 2250 1960 50  0000 C CNN
+F 2 "" H 2250 2160 50  0001 C CNN
+F 3 "" H 2250 2160 50  0001 C CNN
+	1    2250 2160
+	-1   0    0    -1  
 $EndComp
 $Comp
 L AVR-ISP-6 CON1
@@ -693,10 +539,10 @@ F 3 "" H 5605 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR15
+L GND #PWR06
 U 1 1 5B3B6A5F
 P 6160 5450
-F 0 "#PWR15" H 6160 5200 50  0001 C CNN
+F 0 "#PWR06" H 6160 5200 50  0001 C CNN
 F 1 "GND" H 6160 5300 50  0000 C CNN
 F 2 "" H 6160 5450 50  0001 C CNN
 F 3 "" H 6160 5450 50  0001 C CNN
@@ -706,10 +552,10 @@ $EndComp
 Text Label 6160 5200 0    60   ~ 0
 MOSI
 $Comp
-L +5V #PWR14
+L +5V #PWR07
 U 1 1 5B3B6A66
 P 6160 4980
-F 0 "#PWR14" H 6160 4830 50  0001 C CNN
+F 0 "#PWR07" H 6160 4830 50  0001 C CNN
 F 1 "+5V" H 6160 5120 50  0000 C CNN
 F 2 "" H 6160 4980 50  0001 C CNN
 F 3 "" H 6160 4980 50  0001 C CNN
@@ -743,10 +589,10 @@ F 12 "Active" H 7640 4810 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR16
+L GND #PWR08
 U 1 1 5B3BA495
 P 7730 3600
-F 0 "#PWR16" H 7730 3350 50  0001 C CNN
+F 0 "#PWR08" H 7730 3350 50  0001 C CNN
 F 1 "GND" H 7730 3450 50  0000 C CNN
 F 2 "" H 7730 3600 50  0001 C CNN
 F 3 "" H 7730 3600 50  0001 C CNN
@@ -754,10 +600,10 @@ F 3 "" H 7730 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR3
+L VBUS #PWR09
 U 1 1 5B3BBA97
 P 2840 2000
-F 0 "#PWR3" H 2840 1850 50  0001 C CNN
+F 0 "#PWR09" H 2840 1850 50  0001 C CNN
 F 1 "VBUS" H 2840 2150 50  0000 C CNN
 F 2 "" H 2840 2000 50  0001 C CNN
 F 3 "" H 2840 2000 50  0001 C CNN
@@ -765,45 +611,16 @@ F 3 "" H 2840 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x04_Row_Letter_First J2
-U 1 1 5B3BC127
-P 3310 3190
-F 0 "J2" H 3360 3390 50  0000 C CNN
-F 1 "North" H 3360 2890 50  0000 C CNN
-F 2 "" H 3310 3190 50  0001 C CNN
-F 3 "" H 3310 3190 50  0001 C CNN
-	1    3310 3190
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR6
-U 1 1 5B3BD275
-P 3080 3460
-F 0 "#PWR6" H 3080 3210 50  0001 C CNN
-F 1 "GND" H 3080 3310 50  0000 C CNN
-F 2 "" H 3080 3460 50  0001 C CNN
-F 3 "" H 3080 3460 50  0001 C CNN
-	1    3080 3460
-	1    0    0    -1  
-$EndComp
-$Comp
-L VBUS #PWR5
+L VBUS #PWR010
 U 1 1 5B3BEA44
 P 3080 3020
-F 0 "#PWR5" H 3080 2870 50  0001 C CNN
+F 0 "#PWR010" H 3080 2870 50  0001 C CNN
 F 1 "VBUS" H 3080 3170 50  0000 C CNN
 F 2 "" H 3080 3020 50  0001 C CNN
 F 3 "" H 3080 3020 50  0001 C CNN
 	1    3080 3020
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4680 4460 4530 4460
-Wire Wire Line
-	4530 4360 4530 4630
-Wire Wire Line
-	4530 4360 4680 4360
-Connection ~ 4530 4460
 Wire Wire Line
 	8610 4360 8610 4540
 Wire Wire Line
@@ -944,19 +761,12 @@ Connection ~ 4620 2160
 Connection ~ 4410 2160
 Connection ~ 4070 2160
 Wire Wire Line
-	4070 2460 4410 2460
-Wire Wire Line
-	4270 2480 4270 2460
-Connection ~ 4270 2460
-Wire Wire Line
 	3910 2760 4680 2760
 Wire Wire Line
 	3910 2020 3910 2760
 Connection ~ 3910 2160
 Wire Wire Line
 	2450 2160 3020 2160
-Wire Wire Line
-	2840 2160 2840 2000
 Wire Wire Line
 	2840 2460 2840 2630
 Wire Wire Line
@@ -1000,10 +810,6 @@ Wire Wire Line
 	3110 3390 3080 3390
 Wire Wire Line
 	3080 3390 3080 3460
-Wire Wire Line
-	3110 3090 3080 3090
-Wire Wire Line
-	3080 3090 3080 3020
 $Comp
 L Conn_02x04_Row_Letter_First J1
 U 1 1 5B3BFB74
@@ -1016,10 +822,10 @@ F 3 "" H 2600 3940 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR011
 U 1 1 5B3BFB7A
 P 2370 4210
-F 0 "#PWR2" H 2370 3960 50  0001 C CNN
+F 0 "#PWR011" H 2370 3960 50  0001 C CNN
 F 1 "GND" H 2370 4060 50  0000 C CNN
 F 2 "" H 2370 4210 50  0001 C CNN
 F 3 "" H 2370 4210 50  0001 C CNN
@@ -1027,10 +833,10 @@ F 3 "" H 2370 4210 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR1
+L VBUS #PWR012
 U 1 1 5B3BFB80
 P 2370 3770
-F 0 "#PWR1" H 2370 3620 50  0001 C CNN
+F 0 "#PWR012" H 2370 3620 50  0001 C CNN
 F 1 "VBUS" H 2370 3920 50  0000 C CNN
 F 2 "" H 2370 3770 50  0001 C CNN
 F 3 "" H 2370 3770 50  0001 C CNN
@@ -1039,8 +845,6 @@ F 3 "" H 2370 3770 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2400 4140 2370 4140
-Wire Wire Line
-	2370 4140 2370 4210
 Wire Wire Line
 	2400 3840 2370 3840
 Wire Wire Line
@@ -1057,10 +861,10 @@ F 3 "" H 4040 3940 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR10
+L GND #PWR013
 U 1 1 5B3BFCE5
 P 3810 4210
-F 0 "#PWR10" H 3810 3960 50  0001 C CNN
+F 0 "#PWR013" H 3810 3960 50  0001 C CNN
 F 1 "GND" H 3810 4060 50  0000 C CNN
 F 2 "" H 3810 4210 50  0001 C CNN
 F 3 "" H 3810 4210 50  0001 C CNN
@@ -1068,10 +872,10 @@ F 3 "" H 3810 4210 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR9
+L VBUS #PWR014
 U 1 1 5B3BFCEB
 P 3810 3770
-F 0 "#PWR9" H 3810 3620 50  0001 C CNN
+F 0 "#PWR014" H 3810 3620 50  0001 C CNN
 F 1 "VBUS" H 3810 3920 50  0000 C CNN
 F 2 "" H 3810 3770 50  0001 C CNN
 F 3 "" H 3810 3770 50  0001 C CNN
@@ -1144,10 +948,10 @@ F 3 "" H 3310 4540 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR8
+L GND #PWR015
 U 1 1 5B3C33CB
 P 3080 4810
-F 0 "#PWR8" H 3080 4560 50  0001 C CNN
+F 0 "#PWR015" H 3080 4560 50  0001 C CNN
 F 1 "GND" H 3080 4660 50  0000 C CNN
 F 2 "" H 3080 4810 50  0001 C CNN
 F 3 "" H 3080 4810 50  0001 C CNN
@@ -1155,10 +959,10 @@ F 3 "" H 3080 4810 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR7
+L VBUS #PWR016
 U 1 1 5B3C33D1
 P 3080 4370
-F 0 "#PWR7" H 3080 4220 50  0001 C CNN
+F 0 "#PWR016" H 3080 4220 50  0001 C CNN
 F 1 "VBUS" H 3080 4520 50  0000 C CNN
 F 2 "" H 3080 4370 50  0001 C CNN
 F 3 "" H 3080 4370 50  0001 C CNN
@@ -1201,4 +1005,57 @@ Wire Wire Line
 	7440 2360 6580 2360
 Wire Wire Line
 	7750 2460 6580 2460
+$Comp
+L GND #PWR017
+U 1 1 5B3D13AC
+P 4240 2510
+F 0 "#PWR017" H 4240 2260 50  0001 C CNN
+F 1 "GND" H 4240 2360 50  0000 C CNN
+F 2 "" H 4240 2510 50  0001 C CNN
+F 3 "" H 4240 2510 50  0001 C CNN
+	1    4240 2510
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4070 2460 4410 2460
+Wire Wire Line
+	4240 2510 4240 2460
+Connection ~ 4240 2460
+Wire Wire Line
+	4530 4360 4680 4360
+Wire Wire Line
+	4530 4630 4530 4360
+Wire Wire Line
+	4680 4460 4530 4460
+Connection ~ 4530 4460
+Wire Wire Line
+	2370 4140 2370 4210
+Wire Wire Line
+	3080 3020 3080 3090
+Wire Wire Line
+	3080 3090 3110 3090
+$Comp
+L Conn_02x04_Row_Letter_First J2
+U 1 1 5B3BC127
+P 3310 3190
+F 0 "J2" H 3360 3390 50  0000 C CNN
+F 1 "North" H 3360 2890 50  0000 C CNN
+F 2 "" H 3310 3190 50  0001 C CNN
+F 3 "" H 3310 3190 50  0001 C CNN
+	1    3310 3190
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2840 2160 2840 2000
+$Comp
+L GND #PWR010
+U 1 1 5B3BD275
+P 3080 3460
+F 0 "#PWR010" H 3080 3210 50  0001 C CNN
+F 1 "GND" H 3080 3310 50  0000 C CNN
+F 2 "" H 3080 3460 50  0001 C CNN
+F 3 "" H 3080 3460 50  0001 C CNN
+	1    3080 3460
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
